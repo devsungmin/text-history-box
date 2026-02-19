@@ -71,6 +71,7 @@ class HistoryPanel {
             if event.modifierFlags.contains(.command),
                let index = self.indexFromKeyCode(event.keyCode) {
                 self.historyManager.copyItem(at: index)
+                self.hide()
                 return nil
             }
 
