@@ -31,6 +31,10 @@ playground.xcworkspace
 
 .build/
 
+# Swift Package Manager 프로젝트이므로 자동 생성되는 xcodeproj는 무시합니다.
+*.xcodeproj
+.swiftpm/
+
 # CocoaPods
 #
 # We recommend against adding the Pods directory to your .gitignore. However
