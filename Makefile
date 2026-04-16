@@ -1,5 +1,5 @@
 APP_NAME = TextHistoryBox
-VERSION = 1.0.1
+VERSION = 1.0.2
 BUILD_DIR = .build
 DEBUG_BIN = $(BUILD_DIR)/debug/$(APP_NAME)
 RELEASE_BIN = $(BUILD_DIR)/release/$(APP_NAME)
