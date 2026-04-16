@@ -18,27 +18,31 @@
 - **OS**: macOS 13.0 (Ventura) 이상
 - **Tool**: Swift 5.9 이상
 
-## 📦 빌드 및 설치
+## 📦 설치
 
+### Homebrew (권장)
+```bash
+brew tap devsungmin/tap
+brew install --cask text-history-box
+```
+
+### 수동 설치
+[Releases](https://github.com/devsungmin/text-history-box/releases) 페이지에서 최신 DMG를 다운로드하여 설치할 수 있습니다.
+
+### 소스에서 빌드
 제공된 `Makefile`을 사용하여 간편하게 빌드하고 설치할 수 있습니다.
 
-### 디버그 빌드 및 실행
 ```bash
+# 디버그 빌드 및 실행
 make run
-```
 
-### 애플리케이션 설치 (/Applications)
-```bash
+# 애플리케이션 설치 (/Applications)
 make install
-```
 
-### DMG 패키지 생성
-```bash
+# DMG 패키지 생성
 make dmg
-```
 
-### 빌드 산출물 정리
-```bash
+# 빌드 산출물 정리
 make clean
 ```
 
